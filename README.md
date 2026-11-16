@@ -18,7 +18,7 @@ School of Data Science and Analytics · College of Computing and Software Engine
 <br>
 
 <p align="center">
-  <img src="./01_Methodology_Workflow.jpg" alt="Ask Before You Push Methodology Workflow" width="98%">
+  <img src="./01_Methodology_Workflow.png" alt="Ask Before You Push Methodology Workflow" width="98%">
 </p>
 <p align="center">
   <em><b>Figure 1:</b> Overview of the <b>Ask Before You Push</b> three-stage inference pipeline—self-diagnosing unnecessary refusals, applying gated adaptive token steering, and verifying final output safety.</em>
@@ -280,7 +280,7 @@ Evaluated across **3 open-weight LLMs** (`Llama-3-8B`, `Gemma-2-9B`, `Qwen2.5-7B
 ### 1. Installation
 
 ```bash
-git clone [https://github.com/iCARE-Lab/ask-before-you-push.git](https://github.com/iCARE-Lab/ask-before-you-push.git)
+git clone https://github.com/iCARE-Lab/ask-before-you-push.git
 cd ask-before-you-push
 pip install -r requirements.txt
 ```
