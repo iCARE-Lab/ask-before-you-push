@@ -1,0 +1,15 @@
+# downloaded benchmarks and model outputs (outputs contain model answers to harmful prompts)
+data/*.jsonl
+outputs/
+*.log
+
+# secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
